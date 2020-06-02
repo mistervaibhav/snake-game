@@ -18,7 +18,7 @@ let lastRenderedTime = 0;
 const main = (currentTime) => {
   if (gameOver) {
     if (confirm('You lost this game, Press OK to play again !!')) {
-      window.location = '/';
+      window.location = 'https://mistervaibhav.github.io/snake-game/';
     }
     return;
   }
